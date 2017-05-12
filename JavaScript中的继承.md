@@ -95,7 +95,7 @@ function extend(child, parent){
     child.prototype.constructor=child;
 }
 ```
--------
+-----
 
 #####总结：继承的方法有多种，核心思想是控制`prototype`指向，切记纠正`constructor`的指向 。
 
